@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+	justify-content:center;
+    place-items: center;  
+    background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1950&q=80") no-repeat center/cover;
+
+    font-family: times New Roman;
+}
+
+
+
+  .box{
+    background:rgba(255,255,255,0.7);
+    width:400px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+	position:absolute;
+    
+  }
+
+
+  .corner{
+    width:50px;
+    height:40px;
+    background-color: gray;
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    border-radius:4px;
+  }
+
+  input{
+    width:100%;
+    padding:10px;
+    margin:9px  0px;
+    border:2px solid white;
+    border-radius:6px;
+  }
+
+  button{
+    width:100%;
+    padding:12px;
+    background: Blue;
+    color:white; 
+    border-radius:6px;
+    margin-top:10px;
+    font-weight:bold;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <div class="corner"></div>
+
+  <h2>Register</h2>
+
+  <input type="text" placeholder="Full Name">
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+
+  <button>Create Account</button>
+</div>
+
+</body>
+</html>
